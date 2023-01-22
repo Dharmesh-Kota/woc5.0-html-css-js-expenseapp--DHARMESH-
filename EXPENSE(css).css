@@ -1,0 +1,90 @@
+html{
+    background-color: black;
+    margin: 0;
+}
+
+/*Title*/
+
+.heading{
+    height: auto;
+    width: 100vw;
+    background: -webkit-linear-gradient(#f32170, #ff6b08,
+        #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/*Main Section*/
+
+main{
+    width: 100vw;
+    height: auto;
+    position: relative;
+}
+main > div{
+    display: inline-block;
+}
+
+/*Expense Catalogue*/
+
+main #expense_cat{
+    height: auto;
+    width: 25vw;
+    margin : 20px 0 0 7%;
+    background-color: rgb(48, 46, 46)
+}
+main #expense_cat .heading{
+    width: 100%;
+    font-size: 20px;
+    background-color: rgb(33, 32, 32);
+}
+main #expense_cat #catalogue{
+    background-color: aliceblue;
+    height: 200px;
+    position: relative;
+}
+main #expense_cat #catalogue .expense_prop{
+    position: relative;
+    color: black; 
+}
+main #expense_cat #catalogue .expense_prop a{
+    text-decoration: none;
+}
+main #expense_cat #catalogue .expense_prop #edit{
+    position: absolute;
+    right: 12%;
+    top: 10%;
+    color: orange;
+}
+main #expense_cat #catalogue .expense_prop #trash{
+    position: absolute;
+    right: 5%;
+    top: 10%;
+    color: orange;
+}
+main #expense_cat #catalogue #cat_buttons{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+
+/*New Expense*/
+
+
+/*Add Icon*/
+
+#add_icon{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+#add_icon i{
+    font-size: 30px;
+    background: -webkit-linear-gradient(#f32170, #ff6b08,
+        #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
